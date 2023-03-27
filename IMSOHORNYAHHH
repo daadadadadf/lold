@@ -1,0 +1,135 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+    Name = "da hubb/resk12#9096",
+    LoadingTitle = "sub to ma channel now madafaka",
+    LoadingSubtitle = "by david",
+    ConfigurationSaving = {
+       Enabled = true,
+       FolderName = nil, -- Create a custom folder for your hub/game
+       FileName = "shitty hub"
+    },
+    Discord = {
+       Enabled = true,
+       Invite = "fcMRE2BeWk", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+    },
+    KeySystem = true, -- Set this to true to use our key system
+    KeySettings = {
+       Title = "da hubb",
+       Subtitle = "Key System lululul",
+       Note = "Join the discord gg./fcMRE2BeWk ( the hub was made by gg./sirius ig)",
+       FileName = "da hub",
+       SaveKey = true,
+       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+       Key = "we luv locking"
+    }
+ })
+ Rayfield:Notify({
+    Title = "da hubb",
+    Content = "gg./sirius and gg./fcMRE2BeWk",
+    Duration = 6.5,
+    Image = 4483362458,
+    Actions = { -- Notification Buttons
+       Ignore = {
+          Name = "Okay!",
+          Callback = function()
+          print("The user tapped Okay!")
+       end
+    },
+ },
+ })
+
+ local Main = Window:CreateTab("Main", 4483362458) -- Title, Image
+ local Section = Main:CreateSection("locks ( some are priv sets ;)")
+
+ local idek = Main:CreateButton({
+    Name = "green dot lull",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/daadadadadf/lold/main/poop", true))()
+    end,
+ })
+ local Button = Main:CreateButton({
+    Name = "nyula",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyula", true))()
+    end,
+ })
+ local Button = Main:CreateButton({
+    Name = "pink box (idek why doenst work)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/daadadadadf/lold/main/sex", true))()
+    end,
+ })
+ local Button = Main:CreateButton({
+    Name = "fucking ANTILOCK NOT LOCK",
+    Callback = function()
+        getgenv().Fatality = {
+            Underground = {
+                ["Enabled"] = true,
+                ["Amount"] = 150,
+                ["Keybind"] = "X",
+            },
+            Sky = {
+                ["Enabled"] = true,
+                ["Amount"] = 150,
+                ["Keybind"] = "C",
+            },
+            CustomVelocity = {
+                ["Enabled"] = true,
+                ["CustomX"] = 200,
+                ["CustomY"] = 200,
+                ["CustomZ"] = 200,
+                ["Keybind"] = "V",
+            },
+            Shake = {
+                ["Enabled"] = true,
+                ["Keybind"] = "B",
+            },
+            AimViewer = {
+                ["Enabled"] = true,
+                ["ViewTarget"] = false,
+                ["RainbowBeam"] = true,
+                ["Keybind"] = "T",
+                ["Width"] = 0.1,
+                ["Color"] = Color3.fromRGB(255, 0, 0),
+            },
+            Miscellaneous = {
+                ["VelocityStatistics"] = false
+            }
+        }
+        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tailgater/Fatality/main/StandaloneAntiLock", true))()
+    end,
+ })
+ local coems = Main:CreateButton({
+    Name = "another anti lock (takes an time to load)",
+    Callback = function()
+    --< DM fear#0004 for help >--
+
+--< Aimviewer Settings >--
+AimviewerToggleKeybind = "z" -- Aimviewer toggle keybind
+AimviewerSwitchKeybind = "x" -- Switch player keybind
+AimviewerColor = Color3.fromRGB(4, 54, 218) -- Color of Aimviewer beam
+AimviewerBeamWidth = 0.3 -- Width of Aimviewer beam
+AimviewerMaterial = "Neon" -- Material of Aimviewer beam (if material is invalid it will default to neon)
+
+
+--< Desync Settings >--
+DesyncKeybind = "v" -- Desync toggle keybind
+DesyncOffset = 3 -- Desync Offset
+
+--< Antilock >--
+AntiKeybind = "c" -- Antilock toggle keybind
+AntiVelocity = 1450,1450,1450 -- Only change this if yk what youre doing
+
+--< Miscallaneous >--
+icon = "rbxassetid://12319510751" -- Notification Image
+console = true -- Console Toggle [True = Enabled, False = Disabled]
+consolename = ".gg/aimviewer and .gg/fcMRE2BeWk" -- Console Name
+consolecolor = "@@BLUE@@" -- Console Text Color
+
+--------------------------------------------------------------------------------
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fear0004/script/main/ggantilock"))()
+    end,
+ })
